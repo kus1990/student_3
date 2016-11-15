@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.ulmart.ru/" />
+<title>choice</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">choice</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=searchField</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[@id=&quot;b-dropdown-catalog-menu&quot;]/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//span[text()=&quot;Спорт и Туризм&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyLocation</td>
+	<td>https://www.ulmart.ru/catalog/tourism_goods</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//h1[text()]</td>
+	<td>Спорт и Туризм</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//html/body/div[1]/div/div/div/div[2]/div/div/secton[1]/div/div[1]ul/li[7]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyLocation</td>
+	<td>https://www.ulmart.ru/catalog/*</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//h1[text()]</td>
+	<td>Тренажеры</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//span[text()=&quot;Велотренажеры&quot;]</td>
+	<td>Велотренажеры</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//span[text()=&quot;Портативные&quot;]</td>
+	<td>Портативные</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//span[text()=&quot;Вертикальные&quot;]</td>
+	<td>Вертикальные</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//span[text()=&quot;Горизонтальные&quot;]</td>
+	<td>Горизонтальные</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//span[text()=&quot;Вертикальные&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//h1[text()]</td>
+	<td>Вертикальные</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=catalogGoodsBlock</td>
+	<td></td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>//div[@id=&quot;catalogGoodsBlock&quot;]/section[1]/div[@class=&quot;b-product__title&quot;]/span/a[text()]</td>
+	<td>Name</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>//div[@id=&quot;catalogGoodsBlock&quot;]/section[1]/div[@class=&quot;b-product__art&quot;]/span[text()]</td>
+	<td>Article</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=77265</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=(//a[contains(text(),'Купить')])[17]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id=&quot;catalogGoodsBlock&quot;]/section[1]/div/div/div/a[text()=&quot;Купить&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyLocation</td>
+	<td>*/addedToCart*</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//h1[text()]</td>
+	<td>Товар добавлен в корзину!</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//span[text()=&quot;Перейти в корзину&quot;]</td>
+	<td>Перейти в корзину</td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>//span[text()=&quot;Перейти в корзину&quot;]/parent::a@data-gtm-eventaction</td>
+	<td>click</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//span[text()=&quot;Перейти в корзину&quot;]/parent::a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyLocation</td>
+	<td>https://www.ulmart.ru/cart</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//h1[text()]</td>
+	<td>Ваша корзина</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@class=&quot;count goodsabbr&quot;][text()]</td>
+	<td>1 шт.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@class=&quot;icol n title&quot;]/a[text()]</td>
+	<td>${Name}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@class=&quot;icol n title&quot;]/span[text()]</td>
+	<td>&quot;Артикул &quot; + ${Article}</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=(//button[contains(text(),&quot;Очистить корзину&quot;)])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//button[contains(text(),&quot;Очистить корзину&quot;)])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//p[contains(text(),&quot;Ваша корзина пуста.&quot;)]</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
