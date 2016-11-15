@@ -48,7 +48,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>//html/body/div[1]/div/div/div/div[2]/div/div/secton[1]/div/div[1]ul/li[7]/a</td>
+	<td>//div[1]/div/div/div/div[2]/div/div/section[1]/div/div[1]/ul/li[7]/a</td>
 	<td></td>
 </tr>
 <tr>
@@ -97,19 +97,14 @@
 	<td></td>
 </tr>
 <tr>
-	<td>store</td>
-	<td>//div[@id=&quot;catalogGoodsBlock&quot;]/section[1]/div[@class=&quot;b-product__title&quot;]/span/a[text()]</td>
+	<td>storeText</td>
+	<td>//div[@id=&quot;catalogGoodsBlock&quot;]/section[1]/div/div/div[@class=&quot;b-product__title&quot;]/span/a</td>
 	<td>Name</td>
 </tr>
 <tr>
-	<td>store</td>
-	<td>//div[@id=&quot;catalogGoodsBlock&quot;]/section[1]/div[@class=&quot;b-product__art&quot;]/span[text()]</td>
+	<td>storeText</td>
+	<td>//div[@id=&quot;catalogGoodsBlock&quot;]/section[1]/div/div/div/div[@class=&quot;b-product__art&quot;]/span</td>
 	<td>Article</td>
-</tr>
-<tr>
-	<td>selectWindow</td>
-	<td>name=77265</td>
-	<td></td>
 </tr>
 <tr>
 	<td>verifyElementPresent</td>
@@ -169,7 +164,7 @@
 <tr>
 	<td>verifyText</td>
 	<td>//div[@class=&quot;icol n title&quot;]/span[text()]</td>
-	<td>&quot;Артикул &quot; + ${Article}</td>
+	<td>Артикул ${Article}</td>
 </tr>
 <tr>
 	<td>verifyElementPresent</td>
@@ -186,7 +181,6 @@
 	<td>//p[contains(text(),&quot;Ваша корзина пуста.&quot;)]</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>
