@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.ulmart.ru/" />
+<title>issue2</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">issue2</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyLocation</td>
+	<td>https://www.ulmart.ru/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=searchField</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[@id=&quot;b-dropdown-catalog-menu&quot;]/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//span[text()=&quot;Спорт и Туризм&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyLocation</td>
+	<td>https://www.ulmart.ru/catalog/tourism_goods</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//h1[text()]</td>
+	<td>Спорт и Туризм</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//span[text()=&quot;Зимний спорт&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyLocation</td>
+	<td>https://www.ulmart.ru/catalog*</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//span[text()=&quot;Горнолыжный спорт&quot;]/parent::a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//span[text()=&quot;Горнолыжный спорт&quot;]/parent::a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//h1[text()]</td>
+	<td>Горные лыжи</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=catalogGoodsBlock</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//section[contains(@class,&quot;b-product&quot;)][1]/div/div/div[@class=&quot;b-product__descr&quot;][contains(text(),&quot;Горные лыжи&quot;)]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
