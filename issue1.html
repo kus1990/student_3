@@ -48,6 +48,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
+	<!-- не устойчивый локатор очень, так как много тегов задействовано, может сломаться при малейших доработках программистов -->
 	<td>//div[1]/div/div/div/div[2]/div/div/section[1]/div/div[1]/ul/li[7]/a</td>
 	<td></td>
 </tr>
@@ -98,11 +99,14 @@
 </tr>
 <tr>
 	<td>storeText</td>
+	<!-- не устойчивый локатор очень, так как много тегов задействовано, может сломаться при малейших доработках программистов -->
 	<td>//div[@id=&quot;catalogGoodsBlock&quot;]/section[1]/div/div/div[@class=&quot;b-product__title&quot;]/span/a</td>
 	<td>Name</td>
 </tr>
 <tr>
 	<td>storeText</td>
+	<!-- не устойчивый локатор очень, так как много тегов задействовано, может сломаться при малейших доработках программистов -->
+	<!-- Молодец, что догадалась так сохранить значение -->
 	<td>//div[@id=&quot;catalogGoodsBlock&quot;]/section[1]/div/div/div/div[@class=&quot;b-product__art&quot;]/span</td>
 	<td>Article</td>
 </tr>
@@ -113,11 +117,13 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
+	<!-- не устойчивый локатор очень, так как много тегов задействовано, может сломаться при малейших доработках программистов -->
 	<td>//div[@id=&quot;catalogGoodsBlock&quot;]/section[1]/div/div/div/a[text()=&quot;Купить&quot;]</td>
 	<td></td>
 </tr>
 <tr>
 	<td>verifyLocation</td>
+	<!-- Молодец! Ты нашла функцию, которая позволяет проверять URL -->
 	<td>*/addedToCart*</td>
 	<td></td>
 </tr>
